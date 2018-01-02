@@ -16,3 +16,4 @@ bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
 bspc rule -a Firefox desktop '^2' follow=on
+bspc rule -a discord desktop '^3'

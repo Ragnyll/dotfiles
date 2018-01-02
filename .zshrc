@@ -4,6 +4,7 @@ fi
 
 export EDITOR=nvim
 alias vim='nvim'
+alias hibernate='sudo systemctl hibernate'
 
 # use vim bindings in prompmt
 set -o vi
