@@ -16,6 +16,10 @@ super + @space
 	# rofi -show run -lines 3 -eh 2 -opacity "80" -font "Ubuntu Mono derivative Powerline 16" -width 100 -padding 485 -color-normal "#000000,#000000,#000000,#000000,#000000"
 	# bindsym $mod+d exec rofi -show run -lines 3 -eh 2 -width 100 -padding 800 -opacity "85" -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd" -font "System San Francisco Display 18"
 
+# program finder
+super + shift + @space
+	rofi -show window
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd

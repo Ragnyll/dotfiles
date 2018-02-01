@@ -1,3 +1,8 @@
+# start tmux on terminal start
+if command -v tmux>/dev/null; then
+  [[ ! $TERM =~ screen ]] && [ -z $TMUX ] && exec tmux
+fi
+
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 	source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
@@ -11,7 +16,6 @@ set -o vi
 
 # get configurations
 export LESS="-R" # fixes colouring on git graph
-export graph='git log --graph --oneline--all'
 alias conflicts='git diff --name-only --deff-filter=U'
 alias gti='git' # i suck at typing
 
