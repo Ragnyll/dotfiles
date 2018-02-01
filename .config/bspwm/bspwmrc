@@ -1,6 +1,6 @@
 #! /bin/sh
 # startup
-feh --bg-fill ~/Pictures/tg_bg2.jpg
+feh --bg-fill ~/Pictures/tg_bg1.jpg
 ~/.config/polybar/launch.sh
 compton --backend glx --paint-on-overlay --vsync opengl-swc -b &
 

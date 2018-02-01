@@ -8,11 +8,13 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 " Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
+Plug 'dracula/vim'
 Plug 'zchee/deoplete-jedi'
 
 call plug#end()
 
 syntax on
+color dracula
 filetype plugin indent on
 set autoindent
 set complete-=i

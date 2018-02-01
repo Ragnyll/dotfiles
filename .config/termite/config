@@ -2,50 +2,49 @@
 # Theme: Blue Daggers
 
 [options]
-font = Ubuntu Mono derivative Powerline 11
+font = Ubuntu Mono derivative Powerline 12
+
+# Dracula theme for termite
+# https://github.com/dracula/termite
+# Copyright 2013-present, All rights reserved
+# Code licensed under the MIT license
 
 [colors]
-foreground      = #bcc3e0
-foreground_bold = #dfe2f1
-cursor          = #dfe2f1
-background      = rgba(32,39,70,.9)
 
-# 16 color space
+# special
+foreground      = #f8f8f2
+foreground_bold = #f8f8f2
+cursor          = #f8f8f2
+background      = rgba(40,42,54,.95)
 
-# Black, Gray, Silver, White
-color0  = #202746
-color8  = #6b7394
-color7  = #bcc3e0
-color15 = #f5f7ff
+# black
+color0  = #000000
+color8  = #4d4d4d
 
-# Red
-color1  = #c94922
-color9  = #c94922
+# red
+color1  = #ff5555
+color9  = #ff6e67
 
-# Green
-color2  = #ac9739
-color10 = #ac9739
+# green
+color2  = #50fa7b
+color10 = #5af78e
 
-# Yellow
-color3  = #c08b30
-color11 = #c08b30
+# yellow
+color3  = #f1fa8c
+color11 = #f4f99d
 
-# Blue
-color4  = #49adff
-color12 = #49adff
+# blue
+color4  = #bd93f9
+color12 = #caa9fa
 
-# Purple
-color5  = #6679cc
-color13 = #6679cc
+# magenta
+color5  = #ff79c6
+color13 = #ff92d0
 
-# Teal
-color6  = #22a2c9
-color14 = #22a2c9
+# cyan
+color6  = #8be9fd
+color14 = #9aedfe
 
-# Extra colors
-color16 = #c76b29
-color17 = #9c637a
-color18 = #293256
-color19 = #5e6687
-color20 = #898ea4
-color21 = #dfe2f1
+# white
+color7  = #bfbfbf
+color15 = #e6e6e6
